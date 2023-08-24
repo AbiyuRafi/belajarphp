@@ -1,0 +1,90 @@
+body {
+    background-color: #f0ebf8;
+    font-family: sans-serif;
+}
+
+center {
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+input[type="text"],
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+}
+
+.form-btn {
+    padding: 10px 20px;
+    background-color: #673ab7;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #9b6af0;
+}
+
+/* CSS untuk halaman final.php */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 10px;
+    color: #666;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #673ab7;
+}
